@@ -1,0 +1,12 @@
+body { font-family: sans-serif; max-width: 520px; margin: 40px auto; padding: 0 16px; }
+
+.barra { background: #e5e5e5; border-radius: 8px; height: 16px; overflow: hidden; }
+#progreso { background: #1d9e75; height: 100%; width: 0; transition: width 0.4s; }
+
+.pregunta { margin: 24px 0; padding: 16px; border: 1px solid #ccc; border-radius: 8px; }
+label { display: block; margin: 6px 0; cursor: pointer; }
+
+.feedback { min-height: 1.4em; font-weight: bold; }
+.feedback.ok { color: #0f7a55; }
+.feedback.error { color: #c0392b; }
+.feedback.aviso { color: #b9770e; }
